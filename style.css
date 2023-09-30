@@ -5,7 +5,8 @@
 }
 body{
     font-family:sans-serif;
-    /* background-color: #010101; */
+    background-color: #282828; 
+    overflow-x:hidden;
 }
 .navbar{
     background-color:#010101;
@@ -13,20 +14,26 @@ body{
   
 }
 .nav-logo{
-    font-size: 3rem;
+    font-size: 2rem;
     color:ivory;
     font-family: fantay; 
     float: left;
     justify-content:center;
     align-items: center;
-    margin:0.1rem 0.5rem ;
+    margin:0.5rem 0.5rem ;
     margin-left:3rem ;
     font-style: italic;
     opacity: 0.8;
+    border-style:solid;
+    border-color: ivory;
+    border-radius: 50%; 
+    
+    
 }
 .nav-logo:hover{
     opacity: 1;
     transition: 0.2s;
+    
     /* transform: translate(sans-serif); */
 }
 .nav-links{
@@ -71,10 +78,111 @@ body{
   height:6vh;
   color:ivory;
 }
+
 .hero-section{
-    background-image: url("IMAGES\hero.jpg");
-    background-size: cover; 
-    height:70vh;
-    width: 200vh;
-     /* background-color: #010101;  */
+   background-image: url("IMAGES/pen.jpg");
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    background-color: #010101;   
+}
+h2{
+    color: bisque;
+    font-style: italic;
+}
+.about-me{
+    height: 60vh;
+    width: 120vh;
+    border-style: double;
+    border-color: ivory;
+    border-radius: 10%;
+    color:ivory;
+    float:right;
+    margin: 8rem;
+      
+ } 
+ .hello{
+    margin-top: 2rem;
+    margin-left: 2rem ;
+ }
+.highlights{
+    color:bisque;
+    font-size: 1.5rem;
+}
+.section-three{
+  
+     height: 100vh;
+     width:100%;
+
+}
+.skills{
+    height: 40vh;
+    width: 60%;
+    border-style: double;
+    border-color: ivory;
+    border-radius: 10%;
+    color:ivory;
+    margin: 5rem 13rem;
+}
+h1{
+     text-align:center;
+     color:bisque;
+}
+.skills-icons{
+    height: 8vh;
+    width:4vw;
+    margin: 4rem;
+    display: inline-block;
+}
+.projects-section{
+    height: 85vh;
+    width:60vw;
+    border-style: double;
+    border-color: ivory;
+    border-radius: 10%;
+    color:ivory;
+    margin: 5rem 13rem;
+}
+.projects{
+    height: 35%;
+    width: 40%;
+    border-style: double;
+    border-color: ivory;
+    border-radius: 10%;
+    color:ivory;
+    margin: 1rem 2rem;
+    display: inline-block;
+}
+h3{
+    text-align: center;
+    color: bisque;
+}
+.projects p,a{
+    margin-left: 1rem;
+}
+.info-list{
+    list-style: none;
+}
+.container {
+    height: 45vh;
+    width: 60%;
+    border-style: double;
+    border-color: ivory;
+    border-radius: 10%;
+    color:ivory;
+    padding: 2rem; 
+    margin: 1rem 14rem;
+   
+}
+.list a{
+    color:darkgray;
+    text-decoration: none;
+}
+footer{
+    background-color: #010101;
+    color:antiquewhite;
+    text-align: center;
+    padding: 1rem;
 }
