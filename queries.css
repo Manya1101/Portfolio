@@ -1,0 +1,118 @@
+/* responding to small laptops */
+@media (max-width: 1344px){
+.hero-section{
+max-width: 120rem;
+}
+.hello{
+    font-size: 1rem;
+}
+
+.about-me{
+    margin-top:5rem;
+}
+.highlights{
+    font-size: 1.2rem;
+}
+.nav-items{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+.nav-logo{
+    font-size: 1.5rem;
+}
+.skills{
+    margin-left:14rem ;
+}
+.skills-icons{
+    margin:2rem;
+}
+.projects-section{
+    margin: 2rem 14rem;
+}
+.projects{
+
+    margin:1.5rem;
+}
+.projects p,a{
+    font-size:1rem ;
+    margin-left: 0.8rem;
+}
+h2{
+    font-size: 1rem;
+}
+.container{
+    margin:2rem 14rem;
+    padding:1rem;
+    font-size: 1rem;
+}
+footer{
+    padding: 0.5rem;
+}
+} 
+/* responding to landscape tablets */
+
+@media (max-width: 1200px){  
+    .nav-items{
+        font-size: 1.5rem;
+    }
+     .skills{
+        margin:5rem 16rem;
+    } 
+    .skills-icons{ 
+        height:auto;
+        margin-top:1rem;
+        /* margin-right: 2rem; */ 
+        /* justify-content: space-evenly;
+        /* align-items: center; */
+    }
+     h1{
+        text-align:center; 
+    } 
+ .projects-section{
+        margin:5rem 16rem;
+    }
+    .projects{
+        margin-left:2.5rem;
+    }
+    .container{
+        margin:5rem 16rem;
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:700px){
+    .nav-logo{
+        font-size: 0.8rem;
+    }
+    .nav-items{
+        font-size: 0.5rem;
+    }
+    .hello{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .highlights{
+        font-size: 1rem;
+    }
+    .skills{
+        margin-left: 8rem;
+    }
+    .skills-icons{
+        margin-left:1.5rem;
+      height:auto;
+    }
+    .projects-section{
+        margin-left: 8rem;
+    }
+    .projects{
+        margin:0.6rem 1rem ;
+        margin-top: 0.6rem; 
+      
+      
+    }
+    .projects p,a{
+        font-size: 0.5rem;
+    }
+    .container{
+     margin-left: 8rem;
+    }
+   
